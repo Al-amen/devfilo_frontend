@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHamburger } from "react-icons/fa";
 import { Switch } from "@/components/ui/switch";
-import ResponsiveNavbar from "./ResponsiveNavbar";
+import ResponsiveNavbar from "@/ui_components/ResponsiveNavbar";
 import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = ({
