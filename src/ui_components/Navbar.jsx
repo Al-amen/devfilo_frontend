@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHamburger } from "react-icons/fa";
 import { Switch } from "@/components/ui/switch";
-import ResponsiveNavbar from "@/ui_components/ResponsiveNavbar";
+import ResponsiveNavBar from "@/ui_components/ResponsiveNavbar";
 import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = ({
@@ -86,7 +86,7 @@ export const Navbar = ({
       </nav>
 
       {showNavBar && (
-        <ResponsiveNavbar
+        <ResponsiveNavBar
           isAuthenticated={isAuthenticated}
           username={username}
           logout={logout}
