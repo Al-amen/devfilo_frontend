@@ -119,10 +119,7 @@ const SignupPage = ({ userInfo, updateForm, toggleModal }) => {
           placeholder="Enter first name"
           {...register("first_name", {
             required: "Firstname is required",
-            minLength: {
-              value: 3,
-              message: "Firstname must be at least 3 characters",
-            },
+           
           })}
           className="border-2 border-[#141624] dark:border-[#3B3C4A] focus:outline-0 h-[40px] w-[300px]"
         />
@@ -139,10 +136,7 @@ const SignupPage = ({ userInfo, updateForm, toggleModal }) => {
           placeholder="Enter last name"
           {...register("last_name", {
             required: "Lastname is required",
-            minLength: {
-              value: 3,
-              message: "Lastname must be at least 3 characters",
-            },
+           
           })}
           className="border-2 border-[#141624] dark:border-[#3B3C4A] focus:outline-0 h-[40px] w-[300px]"
         />
